@@ -1,0 +1,74 @@
+@media (min-width:1025px) {
+    .berger{
+        display: none;
+    }
+}
+@media (max-width:767px) {
+    .menu{
+        display:none;
+    }
+    .cta-moshavere{
+        display: none;
+    }
+    .inner-first{
+        flex-direction: column-reverse;
+        padding: 24px;
+    
+    }
+    .picture{
+        width: 100%;
+        padding: 0 40px;
+    }
+    .desc1{
+        font-size: 12px;
+        padding-right:90px;
+    }
+    .desc2{
+        font-size: 24px;
+    }
+    .desc3{
+        font-size: 12px;
+    }
+    .cta-advice{
+        font-size: 14px;
+        padding: 10px 16px;
+    }
+    .cta-guide{
+        font-size: 11px;
+    }
+    .num1{
+        font-size: 15px;
+    }
+    .text{
+        font-size: 7px;
+    }
+    .inner-second{
+        padding: 0px 42px;
+        margin-top: 30px;
+    }
+    .header{
+        margin: 0 24px;
+    }
+    .third-section{
+        background: url(./photo/mobilebg.png);
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom:199px !important;
+        padding-top:30px;
+    }
+    .inner-third{
+        
+        flex-direction: column;
+    }
+    .image-expert{
+        flex-direction: column;
+
+    }
+    .image-sample{
+        flex-direction: column;
+    }
+    .image-service{
+        flex-direction: column;
+    }
+}
